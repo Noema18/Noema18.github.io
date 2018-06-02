@@ -25,13 +25,15 @@ head {
     
 }
 heading {
-    text-align: center;
+ text-align: center;
 border: 2px; 
 word-spacing: 24px;
 background-color: gold;
 text-align: center;
 font-size: 22px;
-padding: .3rem;"
+padding: .3rem;
+
+
            
 }
 h1 p {
@@ -50,6 +52,12 @@ nav ul li a {}
 nav ul li.active a {
 
 
+}
+.logo-img {
+    float: left;
+}
+nav {
+    float: right;
 }
 nav ul li a:hover {}
 
