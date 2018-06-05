@@ -5,22 +5,36 @@
  <img src="image/logo" alt="Franklin Weather">   
  <meta charset="utf-8">
 <meta name="description" content="Weather Forecast">
-<link rel="stylesheet" type="text/css" href="main-5.css">
+ <meta name="viewport" content="width=device-width">    
+<title>JS Bin</title>
+<link rel="stylesheet" type="text/css" href="style/main-5.(2).css">
+<link rel="stylesheet" type="text/css" href="style/medium-6.css">
+<link rel="stylesheet" type="text/css" href="style/large-6.css">
  
+    
+    </head>
+<body>
      <h1>Most Reliable Weather Forecast</h1>
      <p>Current Weather</p>
-<heading>
-    
+  <heading>
+     
 <a href="/home/">Home</a> |
 <a href="/franklin/">Franklin</a> |
 <a href="/springfield/">Springfield</a> |
 <a href="/greenville/">Greenville</a> |
 <a href="/stormCenter/">TheStormCenter</a> |
 <a href="/galley/">Galley</a> 
-     </heading>    
-     
-    </head>
-    <body>
+     </heading> 
+
+ <section>
+<div class="wc">
+<p>High: <input type="text" id="high" maxlength="3" size="1"> &deg; F Low: 
+<input type="text" id="low" maxlength="3" size="1"> &deg; F Windspeed<input 
+type="text" id="windspeed" maxlength="3" size="1"></p>
+<input type ="submit" onclick="windchill()">
+<div id='windchill()'>Wind Chill Factor</div>
+</div>
+</section>   
 
 <h2>Franklin City</h2>
 
@@ -38,24 +52,20 @@
      
         
      <div>
-<figure class="myphoto">
 
-    <img src="image/franklin-2.jpg" alt="Franklin">
+  <figure class="myphoto">
+
+    <img src="image/franklin-px100.jpg" alt="Franklin">
     <figcaption>Franklin</figcaption>
          
-         </figure>
-         
-   <section>
-       <div class="form">
-           Enter a three-digit integer: <input type="text"
-        id="aNum" maxlength="3" size="1">
-           <input type="submit" onclick="computeNum()"
-                  value="Run Calculation">
-           <div id="output">Output Placeholder</div>
-       </div>
-         </section>  
-    
-    
+          
+        
+	<a href="#"><img class="norm" src='gallery-7/a.jpg'></a>
+	<a href="#"><img class="norm" src="gallery-7/b.jpg">"</a>
+	<a href="#"><img class="norm" src="gallery-7/c.jpg"></a>
+
+       </figure>      
+           
 <p>On average there are 211 sunny days per year in Franklin. 
 The July high is around 89 degres. The January low is 26. 
 Sperling's conform index for Franklin is a 60 out of 100, 
