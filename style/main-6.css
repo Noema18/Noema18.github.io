@@ -1,19 +1,47 @@
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box;}  
 
 body {
-  font-size: 16px;
- 
+  
+font-family: 'Steve Matterson', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        background-color: lightcyan;
+    
+}
+div header footer main figure table body {
+    text-align: left;
 }
 
-header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+header, nav, main, footer
+  max-width: 100%; 
+
 }
 
-header {}
-header h1 {}
-header img {}
+head {
+     font-family: 'Steve Matterson' , sans-serif;
+     text-align-last: center;
+    width: 50%;
+    margin: 0 0 0 2%;  
+    
+}
+heading {
+ text-align: center;
+border: 2px; 
+word-spacing: 24px;
+background-color: gold;
+text-align: center;
+font-size: 22px;
+padding: .3rem;
+
+
+           
+}
+h1 p {
+    font-size: 16px;
+}
+header img {
+text-align: center;
+}
 header .subheading {}
 
 nav {}
@@ -21,12 +49,53 @@ nav button {}
 nav ul {}
 nav ul li {}
 nav ul li a {}
-nav ul li.active a {}
+nav ul li.active a {
+
+
+}
+.logo-img {
+    float: left;
+}
+nav {
+    float: right;
+}
 nav ul li a:hover {}
 
-main {}
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+    text-align: center;
+}
 main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
 
-footer {}
+figure.myphoto img {width:  100%;}
+main figure.myphoto figparagraph {text-align: center;font-size: .75}
+main figure.myphoto figcaption {text-align: center;}
+    
+html {
+    text-align: left;
+}
+
+table, th, td {
+           border: 8px; solid gold;
+           text-align: center;
+    background-color:  greenyellow;
+              
+}
+section, div {margin: 1rem;}
+.form {background-color: chartreuse; padding: 1rem; border: 1px solid #444;}
+div {background-color: aquamarine; padding: 1rem; border: 1px solid #444;}
+#aNum {border:1px solid #bbeedd; background-color: aquamarine; text-align: center;}
+
+footer {
+    background-color: lightgray;
+    padding: .5rem 2%;
+    text-align: center;
+    text-decoration-color: white;
+    
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ 
+ <head>
+ <img src="image/logo" alt="Franklin Weather">   
+ <meta charset="utf-8">
+<meta name="description" content="Weather Forecast">
+<link rel="stylesheet" type="text/css" href="style/normalize.css">
+<link rel="stylesheet" type="text/css" href="style/large-6.css">
+<link rel="stylesheet" type="text/css" href="style/medium-6.css">
+<link rel="stylesheet" type="text/css" href="style/small.css">
+ 
+     <h1>Most Reliable Weather Forecast</h1>
+     <p>Current Weather</p>
+<heading>
+    
+<a href="/home/">Home</a> |
+<a href="/franklin/">Franklin</a> |
+<a href="/springfield/">Springfield</a> |
+<a href="/greenville/">Greenville</a> |
+<a href="/stormCenter/">TheStormCenter</a> |
+<a href="/galley/">Galley</a> 
+     </heading>    
+     
+    </head>
+    <body>
+
+<h2>Franklin City</h2>
+
+<h3>Weather Report</h3>
+<img src="image/sun.jpg">
+
+
+<h4>Sunny</h4> 
+ <p>
+          High - 90% |
+          Low  - 60% |
+          Precipitation - 0% |
+       Wind Speed - 5mph SW
+        </p>
+     
+        
+     <div>
+<figure class="myphoto">
+    <img src="image/franklin-2.jpg" alt="Franklin">
+    <figcaption>Franklin</figcaption>
+         
+         </figure>
+         
+     
+    
+    
+<p>On average there are 211 sunny days per year in Franklin. 
+The July high is around 89 degres. The January low is 26. 
+Sperling's conform index for Franklin is a 60 out of 100, 
+where a higher score indicates a more comfortable year-around climate. 
+Our index based on the total number of days annually within the comfort 
+range of 70-80 degrees, and we also applied a penalty for days of excessive humidity.</p>
+</div>
+ <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+        </style>
+
+<body>
+
+<div style="text-align:center">
+  <h2>Click on the images below</h2>
+ 
+</div>
+
+<!-- The five columns -->
+<div class="row">
+  <div class="column">
+    <img src="image/40120123-sunny-day.jpg"alt="Sunny Day" style="width:50%" onclick="myFunction(this);">
+      <p>Franklin is one of the place that have more sunny day than raining day</p>
+  </div>
+  <div class="column">
+    <img src="image/rainy%20day.jpeg" alt="Rain Day" style="width:50%" onclick="myFunction(this);">
+      <p>Franklin is one of the place that has less rain every year</p>
+  </div>
+  <div class="column">
+    <img src="image/lightning-strikes-across-adelaide-data.jpg"alt="Lightening" style="width:50%" onclick="myFunction(this);">
+      <p>Last monday there were three day straight that was lightening and heavy rain</p>
+  </div>
+  <div class="column">
+    <img src="image/tornado.jpg" alt="tornado" style="width:50%" onclick="myFunction(this);">
+      <p>Last November and December most people from low land were affected by a small tornado</p>
+  </div>
+    <div class="column"></div>
+    <img src="image/windy%20day.jpeg" alt="windy" style="width: 50%" onclick="myFunction(this);">
+    <p>Usually in the middle of the year is one of the most windy days</p>
+</div>
+
+<div class="container"
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>     
+ <table style="display: inline-table;">
+     
+    <tr>
+        <th>Day 1</th>
+        <th>Day 2</th>
+        <th>Day 3</th>
+        <th>Day 4</th>
+        <th>Day 5</th>
+        <th>Day 6</th>
+        <th>Day 7</th>
+        <th>Day 8</th>
+        <th>Day 9</th>
+        <th>Day 10</th>
+    </tr>
+    <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+    
+      </table>
+   
+      
+    </body>
+
+<footer>
+       
+<p>Contact Information placeholder
+    999.999.9990
+      123 Main St. Anytown, US 99999
+    Google Map</p>  
+    
+&copy;2018 | All Rights Reserved | Most Realiable Forecast | Monday6, 2020
+     
+  </footer>
+
+
+</html>
