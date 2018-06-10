@@ -1,5 +1,3 @@
-
-'use strict';
 function windchil() {
 var h = parseInt(document.getElementById('high').value);
 var l = parseInt(document.getElementById('low').value);
