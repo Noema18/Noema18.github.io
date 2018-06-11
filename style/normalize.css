@@ -342,3 +342,10 @@ template {
 nav {
     float: left;
 }
+section 
+.photo-grid {
+    
+/*...*/
+    flex-wrap: wrap;
+    
+     

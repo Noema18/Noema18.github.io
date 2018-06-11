@@ -57,6 +57,10 @@ background-color: gold;
 text-align: center;
 font-size: 22px;
 padding: .3rem;
+}
+logo {
+    float: left;
+}
 
 
            
