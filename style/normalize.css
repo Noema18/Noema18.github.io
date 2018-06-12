@@ -347,5 +347,10 @@ section
     
 /*...*/
     flex-wrap: wrap;
+}
     
-     
+    table img {
+        
+      height: 100%;
+    weight: 100%;
+    }     
