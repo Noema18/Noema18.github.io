@@ -32,3 +32,8 @@
         width: 50%
     }
   }
+.floaed_img
+{
+    float: left;
+    
+}

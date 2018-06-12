@@ -354,3 +354,7 @@ section
       height: 100%;
     weight: 100%;
     }     
+.floaed_img
+{
+    float: left;
+}

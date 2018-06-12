@@ -17,4 +17,7 @@ table img      {
             height: 90px;
         }
     </style>
-    
+    .floaed_img
+{
+    float: left;
+}

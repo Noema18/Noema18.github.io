@@ -22,3 +22,7 @@ nes (269 sloc)  5.91 KB
         width: 35%;
     }
   }
+.floaed_img
+{
+    float: left;
+}
