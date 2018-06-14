@@ -1,0 +1,14 @@
+@media only screen and (min-width: 64em) {
+
+
+
+    /*gallery grid*/
+    div.gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3%;
+    }
+    div.gallery figure:hover {
+        box-shadow: 5px 10px 15px gray;
+    }
+}
+© 2018 GitHub, Inc.
