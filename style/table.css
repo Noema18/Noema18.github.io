@@ -2,6 +2,7 @@
 
 body{
     font-size: 16px;
+    
 }
 table {
     margin: 200px;
@@ -16,6 +17,8 @@ thead {
 }
 th,td {
     padding: 15px;
+  text-align: b
+      center: blackfriday;
 }
 tbody th {
     background-color: #628ca6;
