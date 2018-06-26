@@ -1,0 +1,101 @@
+* { box-sizing: border-box;}  
+
+body {
+  
+font-family: 'Steve Matterson', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        background-color: lightcyan;
+    
+}
+div header footer main figure table body {
+    text-align: center;
+}
+
+header, nav, main, footer
+  max-width: 100%; 
+
+}
+
+head {
+     font-family: 'Steve Matterson' , sans-serif;
+     text-align-last: center;
+    width: 50%;
+    margin: 0 0 0 2%;  
+    
+}
+heading {
+ text-align: center;
+border: 2px; 
+word-spacing: 24px;
+background-color: gold;
+text-align: center;
+font-size: 22px;
+padding: .3rem;
+         
+}
+
+h1 p {
+    font-size: 16px;
+}
+header img {
+text-align: center;
+}
+header .subheading {
+    
+}
+
+nav {}
+nav button {}
+nav ul {}
+nav ul li {}
+nav ul li a {}
+nav ul li.active a {
+
+
+}
+
+.logo-img {
+    float: center;
+}
+nav {
+    float: center;
+}
+nav ul li a:hover {}
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+    text-align: center;
+}
+main h2 {}
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: center;
+}
+
+figure.myphoto img {width:  100%;}
+main figure.myphoto figparagraph {text-align: center;font-size: .75}
+main figure.myphoto figcaption {text-align: center;}
+    
+html {
+    text-align: center;
+}
+
+table, th, td text {
+           border: 8px; 
+    color:black;
+ text-align: center;
+    background-color:  lightgoldenrodyellow;
+              
+}
+
+
+footer {
+    background-color: darkgray;
+    padding: .5rem 2%;
+    text-align: center;
+    text-decoration-color: white;
+    
+}
