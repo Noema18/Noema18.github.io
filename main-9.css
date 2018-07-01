@@ -74,6 +74,9 @@ main figure.myphoto {
     margin: 0 0 0 2%;
     float: center;
 }
+logo img {
+    text-align: left;
+}
 
 figure.myphoto img {width:  100%;}
 main figure.myphoto figparagraph {text-align: center;font-size: .75}
