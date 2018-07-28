@@ -41,7 +41,7 @@ footer {grid-area: footer;}
     justify-content: center;
     margin: auto;
     align-content: space-around;
-    background-color:  rgba(163, 142, 119, 1);
+    background-color:  lightblue; (142, 119, 1);
 }
 
 #homeTour, #tourOne, #event1 { grid-area: left;}
@@ -62,7 +62,7 @@ section img {grid-area: img;}
 section p {grid-area: p;}
 .abutton {grid-area: button;
     text-decoration: none;
-    color: #efd45b;
+    color: darkblue;
     text-align: center;
 }
 
@@ -79,15 +79,19 @@ p
 {
     padding: 10px;
 }
-header, footer {
-    background-color: rgba(30, 87, 140, 1);
+header  {
+    background-color: gold;(87, 140, 1);
     max-width: 100%;
 }
+footer {
+    background-color: darkgray;
+    max-width: 50%;
+}
 
-header h1 {
+header h1, h2 {
     max-width: 90%;
     font-family: 'Chelsea Market', cursive;
-    color: #ffffff;
+    color: darkblue;
     font-size: 2rem;
     text-align: center;
 }
@@ -159,7 +163,7 @@ main h2 {
 }
 
 footer span, footer a {
-    padding: 10px;
+    padding: 2px;
 }
 
 .active {
@@ -177,11 +181,11 @@ fieldset {
 legend {
     color: white;
     font-size: 1em;
-    background-color: #1761a0;
+    background-color: gold;
     margin-left: 10%;
     padding: .5em;
     border-radius: 1em;
-    border: #1e578c double 4px;
+    border: gray single 2px;
     font-family: 'Chelsea Market', cursive;
 }
 
@@ -198,18 +202,22 @@ label span {
 }
 
 input.submit, .abutton {
-    color: #efd45b;
+    color: darkblue;
     font-size: 1em;
     font-weight: bold;
-    background-color: #1e578c;
+    background-color: gold;
     margin-left: 10%;
-    padding: .6em;
-    border-radius: 2em;
-    border: #efd45b double 4px;
+    padding: .1em;
+    border-radius: 1em;
+    border: #efd45b single 2px;
     font-family: 'Chelsea Market', cursive;
     width: 50%;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px gold;
     align-content: center;
+}
+footer {
+    border-bottom-color: gray
+    
 }
 
 textarea {

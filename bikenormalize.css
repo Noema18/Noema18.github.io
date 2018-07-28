@@ -159,7 +159,7 @@ dfn {
 */
 
 mark {
-    background-color: gold;
+    background-color: lightgoldenrodyellow;
     color: #000;
 }
 
@@ -444,4 +444,8 @@ template {
 
 [hidden] {
     display: none;
+}
+footer {
+    border-bottom: 1em;
+    background-color: lightgray
 }
